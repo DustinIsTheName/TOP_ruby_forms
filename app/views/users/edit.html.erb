@@ -9,19 +9,7 @@
 	<input type="submit">
 </form>-->
 
-<!--<%= form_tag('/users') do %>
-  <%= text_field_tag(:name) %>
-  <%= label_tag(:name, "name") %>
-  <%= text_field_tag(:email) %>
-  <%= label_tag(:email, "email") %>
-  <%= text_field_tag(:password_digest) %>
-  <%= label_tag(:password_digest, "password") %>
-
-  <%= submit_tag("submit") %>
-
-<% end %>-->
-
-<%= form_for :user, url: {action: 'create'} do |f| %>
+<!--<%= form_for @user, url: {action: 'update'} do |f| %>
   <%= f.text_field :name %>
   <%= f.label :name, "name" %>
   <%= f.text_field :email %>
@@ -31,4 +19,4 @@
 
   <%= submit_tag("submit") %>
 
-<% end %>
+<% end %>-->
