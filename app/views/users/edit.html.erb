@@ -9,7 +9,8 @@
 	<input type="submit">
 </form>-->
 
-<!--<%= form_for @user, url: {action: 'update'} do |f| %>
+
+<%= form_for @user do |f| %>
   <%= f.text_field :name %>
   <%= f.label :name, "name" %>
   <%= f.text_field :email %>
@@ -19,4 +20,4 @@
 
   <%= submit_tag("submit") %>
 
-<% end %>-->
+<% end %>
